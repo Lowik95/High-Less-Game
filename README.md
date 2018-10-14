@@ -1,2 +1,3 @@
 # High-Less-Game
 Jeu du plus ou du moins en Python 3/Guessing the number Game in Python 3
+Le jeu est écrit en anglais et les commentaires sont en français, il a été codé en Python 3 et pour enregistrer les scores j'ai utilisé du JSON. Il est entièrement fonctionnel, les petits détails manquants sont qu'il faut trier le classement des joueurs en fonction des scores réalisés par ces derniers. The game is written in English and comments are in French, it was coded in Python 3 and to register the scores I used JSON. He is completely functional, the small missing details are the ranking of the players according to the scores realized by them.
