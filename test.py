@@ -33,6 +33,7 @@ def main(): #La fonction principale qui s'occupera de tout le jeu
     if not os.path.isfile("highscores.json"): #Si il n'y a pas de fichier JSON sur l'ordinateur avec le nom "highscores" alors on en crée un
             with open("highscores.json", 'w') as f_write: #On ouvre le fichier en mode écriture et on lui écrit le nom du joueur et son score
                     f_write.write(json.dumps(finalScore, indent=4, separators=(',', ': ')))
+                    again()
     else: #Sinon, si le fichier est déjà existant
             with open("highscores.json") as f: #On l'ouvre
                     score = json.load(f)
